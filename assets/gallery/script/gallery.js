@@ -1,9 +1,3 @@
-// IMAGE LONG PRESS
-
-document.addEventListener("contextmenu", function(e){
-e.preventDefault();
-});
-
 //NAV SCROLL
 
 const navbar = document.getElementById("navbar");
