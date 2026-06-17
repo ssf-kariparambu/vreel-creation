@@ -402,4 +402,20 @@ width: 100%;
 .fa-instagram, .fa-whatsapp, .fa-envelope, .fa-phone{
 font-size: 28px;
 }
+    .sub-title{
+      font-size: 36px;
+    }
+    .about-col-1, .about-col-2{
+      flex-basis: 100%;
+    }
+    .about-col-1{
+      margin-bottom: 30px;
+    }
+    .about-col-2{
+      font-size: 14px;
+    }
+    .tab-links{
+      font-size: 16px;
+      margin-right: 20px;
+    }
   }
