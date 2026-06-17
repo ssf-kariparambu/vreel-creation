@@ -1,9 +1,3 @@
-// IMAGE LONG PRESS
-
-document.addEventListener("contextmenu", function(e){
-e.preventDefault();
-});
-
 //ABOUT TAB
 
 var tabLinks = document.getElementsByClassName("tab-links");
