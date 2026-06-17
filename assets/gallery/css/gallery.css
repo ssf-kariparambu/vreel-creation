@@ -10,6 +10,11 @@ scroll-behavior: smooth;
 body {
 background: black;
 color: #fff;
+-webkit-user-select: none;
+user-select: none;
+-webkit-touch-callout: none;
+-webkit-user-drag: none;
+pointer-events: none;
 }
 img {
 max-width: 100%;
