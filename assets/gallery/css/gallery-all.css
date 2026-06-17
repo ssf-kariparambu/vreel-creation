@@ -69,9 +69,6 @@ img {
   object-fit: cover;
   display: block;
   border-radius: 10px;
-  -webkit-user-select: none;
-  user-select: none;
-  -webkit-touch-callout: none;
   border: 1px solid white;
 }
 
