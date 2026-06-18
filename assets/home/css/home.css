@@ -200,6 +200,15 @@ align-items:center;
 border:1px solid rgba(255,255,255,.06);
 transition:.3s;
 }
+.contact-card-2{
+width: 100%;
+background:#111;
+border-radius:24px;
+padding:35px 25px;
+text-align:center;
+border:1px solid rgba(255,255,255,.06);
+transition:.3s;
+}
 .contact-boxes-2{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
@@ -216,6 +225,10 @@ color: inherit;
 border-color:#00cfff;
 transform:translateY(-5px);
 }
+.contact-card-2:hover{
+border-color:#00cfff;
+transform:translateY(-5px);
+}
 .contact-icon{
 width:65px;
 height:65px;
@@ -223,6 +236,18 @@ border-radius:20%;
 background:#07151a;
 display:flex;
 justify-content:center;
+align-items:center;
+font-size:24px;
+color:#00cfff;
+}
+.contact-icon-2{
+width:65px;
+height:65px;
+border-radius:20%;
+background:#07151a;
+display:flex;
+justify-content:center;
+margin-bottom: 18px;
 align-items:center;
 font-size:24px;
 color:#00cfff;
