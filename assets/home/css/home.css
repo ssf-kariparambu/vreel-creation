@@ -194,6 +194,9 @@ background:#111;
 border-radius:24px;
 padding:35px 25px;
 text-align:center;
+display:flex;
+justify-content:center;
+align-items:center;
 border:1px solid rgba(255,255,255,.06);
 transition:.3s;
 }
@@ -201,7 +204,9 @@ transition:.3s;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 gap: 18px;
-margin-top: 35px;
+margin-top: 35px;display:flex;
+justify-content:center;
+align-items:center;
 }
 a{
 text-decoration: none;
@@ -219,8 +224,6 @@ background:#07151a;
 display:flex;
 justify-content:center;
 align-items:center;
-margin:auto;
-margin-bottom:18px;
 font-size:24px;
 color:#00cfff;
 }
